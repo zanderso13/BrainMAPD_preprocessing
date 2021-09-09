@@ -1,0 +1,20 @@
+This set of scripts that can be used to submit fmriprep jobs to the HPC cluster at Northwestern University
+
+Northwestern uses slurm based syntax to interact with the HPC
+
+Installation:
+git clone 
+
+Running multiple subjects:
+
+Each script expects a single input. To run a single subject:
+
+sbatch 
+
+To run multiple subjects:
+
+asdf
+
+Note that, in the first case, you pass a single argument that is a subject's ID number to the function. 
+In the case of batch processing, you pass a txt file that has a list of subject ID's that are then read in.
+Batch processing does not require any additional syntax to submit jobs to the cluster. This is done automatically.
