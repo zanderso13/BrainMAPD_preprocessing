@@ -1,4 +1,4 @@
-This set of scripts that can be used to submit fmriprep jobs to the HPC cluster at Northwestern University
+This set of scripts can be used to submit fmriprep jobs to the HPC cluster at Northwestern University
 
 Northwestern uses slurm based syntax to interact with the HPC
 
